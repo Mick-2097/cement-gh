@@ -1,0 +1,37 @@
+request tests - 
+    create project              good
+    edit project                good
+    delete project              good
+    add object                  good
+    edit object                 good
+    delete object               good
+    add building                good
+    edit building               good
+    delete building             good
+    add area                    good
+    edit area                   good
+    delete area                 good
+    add spot                    good
+    edit spot                   good
+    delete spot                 good
+    postDocument                good
+
+
+
+decouple payload
+{
+    "monitoring_spot_id": null,
+    "serial_number": "2814f875d0013ce8"
+}
+
+
+install sensor
+
+    
+On the monitoring spots list you need to add a QR code icon next to each of them.
+
+When you click the icon, you need to open modal.
+
+Modal should be able to search for sensors by their serial number in a select dropdown. (/api/sensors?search=)
+
+THe user selects a sensor. And clicks install. (it sends request to sensors/install and passes monitoring_spot_id and serial_number).

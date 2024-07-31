@@ -1,0 +1,177 @@
+{
+  "Language": "Язык",
+  "Russian": "Русский",
+  "English": "English",
+  "Logout": "Logout",
+  "Charts": {
+    "Date&Time": "Date & time",
+    "Deg-C": "°C",
+    "MPa": "MPa",
+    "°C*h": "°C*h"
+  },
+  "login": {
+    "Login": "Login",
+    "E-mail": "E-mail",
+    "Incorrect-email-or-password": "Incorrect email or password",
+    "Registration": "Registration",
+    "Password": "Password",
+    "Forgot-password?": "Forgot password?",
+    "Already-have-an-account?": "Already have an account?",
+    "Enter": "Enter"
+  },
+  "buttons": {
+    "Add-building": "Add building",
+    "Add-building-object": "Add building object",
+    "Add-composition": "Add concrete composition",
+    "Add-monitoring-spot": "Add monitoring spot",
+    "Create-an-account": "Create an account",
+    "Create-new": "Create new",
+    "Create-project": "Create project",
+    "Cancel": "Cancel",
+    "Delete": "Delete",
+    "Edit-area": "Edit area",
+    "Edit-building": "Edit building",
+    "Edit-composition": "Edit composition",
+    "Edit-object": "Edit object",
+    "Edit-project": "Edit project",
+    "Edit-spot": "Edit spot"
+  },
+  "projects": {
+    "Projects": "Projects",
+    "Edit-project": "Edit project",
+    "Delete-project": "Delete project",
+    "Organisation": "organisation"
+  },
+  "createProject": {
+    "Create-a-new-project": "Create a new project",
+    "Organisation": "Organisation",
+    "Select-organisation": "-- Select organisation --",
+    "Project-name": "Project name"
+  },
+  "sideMenu": {
+    "Reports": "Reports",
+    "Sensors": "Sensors",
+    "Concrete-composition": "Concrete composition",
+    "All-buildings-on-the-map": "All buildings on the map",
+    "+Add": "+ Add"
+  },
+  "reports": {
+    "Building-objects": "Building objects",
+    "Search": "Search",
+    "Select-report": "-- Select report --",
+    "Temperature-list": "Temperature list",
+    "No-reports": "No reports",
+    "No-areas": "-- No areas --"
+  },
+  "reports-Temperature-list": {
+    "Work-producer": "Work producer (full name)",
+    "Warm-up-type": "Warm-up type",
+    "Warm-up-start-date": "Warm-up start date",
+    "Warm-up-end-date": "Warm-up end date",
+    "Start-temperature": "Start temperature",
+    "End-warm-up-temperature": "End warm-up temperature",
+    "Theoretical-strength": "Theoretical strength %",
+    "Age-of-samples-days": "Age of samples, days",
+    "Strength-of-samples": "Strength of samples, kg/cm"
+  },
+  "concreteCompositions": {
+    "Concrete-compositions": "Concrete compositions",
+    "Name": "Name",
+    "Brand": "Brand",
+    "Action": "Action",
+    "Edit-composition": "Edit composition",
+    "Delete-composition": "Delete composition"
+  },
+  "objectData": {
+    "Areas": "Areas",
+    "Delete-building-object": "Delete building object",
+    "Edit-building-object": "Edit building object",
+    "Add-child": "Add child",
+    "Add-area": "Add area",
+    "Empty": "-- Empty --"
+  },
+  "VAreas": {
+    "Edit-area": "Edit area",
+    "Delete-area": "Delete area"
+  },
+  "buildingData": {
+    "Monitoring-spots": "Monitoring spots",
+    "Delete-building": "Delete building",
+    "Edit-building": "Edit building",
+    "Add-monitoring-spot": "Add monitoring spot",
+    "Add-child": "Add child",
+    "No-drawings-or-diagrams-have-been-added-yet": "No drawings or diagrams have been added yet"
+  },
+  "VSpots": {
+    "Monitoring-spots": "Monitoring spots",
+    "Empty": "-- Empty --",
+    "Edit-spot": "Edit spot",
+    "Delete-spot": "Delete spot"
+  },
+  "modals": {
+    "Are-you-sure?": "Are you sure?",
+    "Add-area": "Add area",
+    "Add-building": "Add building",
+    "Add-building-object": "Add building object",
+    "Add-concrete-composition": "Add concrete composition",
+    "Add-monitoring-spot": "Add monitoring spot",
+    "Add-sensor": "Add sensor",
+    "Building-type": "Building type",
+    "Concrete-compostition": "Concrete compostition",
+    "Description": "Description",
+    "Edit-area": "Edit area",
+    "Edit-building": "Edit building",
+    "Edit-building-object": "Edit building object",
+    "Edit-composition": "Edit composition",
+    "Edit-concrete-composition": "Edit concrete composition",
+    "Edit-monitoring-spot": "Edit monitoring spot",
+    "Edit-project": "Edit project",
+    "Error": "Error",
+    "External": "External",
+    "Fill-time": "Fill time",
+    "Internal": "Internal",
+    "Name": "Name",
+    "Parameter-a": "Parameter a",
+    "Parameter-b": "Parameter b",
+    "Project-name": "Project name",
+    "Select-building-type": "-- Select building type --",
+    "Select-concrete": "Select concrete",
+    "Select-concrete-composition": "-- Select concrete composition --",
+    "Select-concrete-type": "-- Select concrete type --",
+    "Select-sensor-type": "-- Select sensor type --",
+    "Sensor-type": "Sensor type",
+    "X-axis": "X axis",
+    "Y-axis": "Y axis"
+  },
+  "sensors": {
+    "Select-an-option": "Select an option",
+    "Sensors": "Sensors",
+    "Capture": "Capture",
+    "Point": "Point",
+    "Serial-number": "Serial number",
+    "Type": "Type",
+    "Actions": "Actions",
+    "Inrernal": "Inrernal",
+    "External": "External",
+    "View-sensor": "view sensor",
+    "Decouple-sensor": "decouple sensor",
+    "See-history": "see history",
+    "Next": "Next page",
+    "Previous": "Previous page",
+    "No-sensors": "-- No sensors available --",
+    "No-sensor-history": "-- No history data --"
+  },
+  "histories": {
+    "Export": "Export",
+    "Clear": "Clear",
+    "Import": "Import",
+    "Export-sensor-history": "Export sensor history",
+    "Import-sensor-history": "Import sensor history",
+    "Clear-sensor-history": "Clear sensor history",
+    "Temperature": "Temperature",
+    "Time": "Time",
+    "Maturity": "Maturity",
+    "Strength": "Strength",
+    "Voltage": "Voltage"
+  }
+}

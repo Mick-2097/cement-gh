@@ -1,0 +1,177 @@
+{
+  "Language": "Language",
+  "Russian": "Русский",
+  "English": "English",
+  "Logout": "Выход",
+  "Charts": {
+    "Date&Time": "Date & time",
+    "Deg-C": "°C",
+    "MPa": "MPa",
+    "°C*h": "°C*h"
+  },
+  "login": {
+    "Login": "Вход",
+    "E-mail": "E-mail",
+    "Incorrect-email-or-password": "Неверный E-mail или пароль",
+    "Registration": "Регистрация",
+    "Password": "Пароль",
+    "Forgot-password?": "Забыли пароль?",
+    "Already-have-an-account?": "Уже есть аккаунт?",
+    "Enter": "Войти"
+  },
+  "buttons": {
+    "Add-building": "Добавить строение",
+    "Add-building-object": "Добавить строительный объект",
+    "Add-composition": "Добавить бетонную смесь",
+    "Add-monitoring-spot": "Добавить точку мониторинга",
+    "Create-an-account": "Создать аккаунт",
+    "Create-new": "Создать",
+    "Create-project": "Новый проект",
+    "Cancel": "Отмена",
+    "Delete": "Удалить",
+    "Edit-area": "Редактировать захватку",
+    "Edit-building": "Редактировать строение",
+    "Edit-composition": "Редактировать бетонную смесь",
+    "Edit-object": "Редактировать строительный объект",
+    "Edit-project": "Редактировать проект",
+    "Edit-spot": "Изменить точку мониторинга"
+  },
+  "projects": {
+    "Projects": "Проекты",
+    "Edit-project": "Редактировать проект",
+    "Delete-project": "Удалить проект",
+    "Organisation": "Компания"
+  },
+  "createProject": {
+    "Create-a-new-project": "Создать новый проект",
+    "Organisation": "Компания",
+    "Select-organisation": "-- Выберите компанию --",
+    "Project-name": "Название проекта"
+  },
+  "sideMenu": {
+    "Reports": "Отчеты",
+    "Sensors": "Sensors",
+    "Concrete-composition": "Бетонная смесь",
+    "All-buildings-on-the-map": "Все строения на карте",
+    "+Add": "+ Добавить"
+  },
+  "reports": {
+    "Building-objects": "Строительные объекты",
+    "Search": "Поиск",
+    "Select-report": "-- Выберите отчет --",
+    "Temperature-list": "Температурный лист",
+    "No-reports": "Нет отчетов",
+    "No-areas": "-- Нет захваток --"
+  },
+  "reports-Temperature-list": {
+    "Work-producer": "Производитель работ (полное имя)",
+    "Warm-up-type": "Тип прогрева",
+    "Warm-up-start-date": "Дата/время начала прогрева",
+    "Warm-up-end-date": "Дата/время окончания прогрева",
+    "Start-temperature": "Температура начала прогрева",
+    "End-warm-up-temperature": "Температура окончания прогрева",
+    "Theoretical-strength": "Теоретическая прочность, %",
+    "Age-of-samples-days": "Возраст образцов, дней",
+    "Strength-of-samples": "Прочность образцов, кг/см"
+  },
+  "concreteCompositions": {
+    "Concrete-compositions": "Бетонные смеси",
+    "Name": "Имя",
+    "Brand": "Бренд",
+    "Action": "Действие",
+    "Edit-composition": "Изменить бетонную смесь",
+    "Delete-composition": "Удалить бетонную смесь"
+  },
+  "objectData": {
+    "Areas": "Захватки",
+    "Delete-building-object": "Удалить строительный объект",
+    "Edit-building-object": "Редактировать строительный объект",
+    "Add-child": "Создать",
+    "Add-area": "Создать захватку",
+    "Empty": "-- Пусто --"
+  },
+  "VAreas": {
+    "Edit-area": "Редактировать захватку",
+    "Delete-area": "Удалить захватку"
+  },
+  "buildingData": {
+    "Monitoring-spots": "Точки мониторинга",
+    "Delete-building": "Удалить строение",
+    "Edit-building": "Редактировать строение",
+    "Add-monitoring-spot": "Добавить точку мониторинга",
+    "Add-child": "Создать",
+    "No-drawings-or-diagrams-have-been-added-yet": "Чертежи и схемы еще не добавлены"
+  },
+  "VSpots": {
+    "Monitoring-spots": "Точки мониторинга",
+    "Empty": "-- Пусто --",
+    "Edit-spot": "Изменить точку",
+    "Delete-spot": "Удалить точку"
+  },
+  "modals": {
+    "Are-you-sure?": "Вы уверены?",
+    "Add-area": "Добавить захватку",
+    "Add-building": "Добавить строение",
+    "Add-building-object": "Добавить строительный объект",
+    "Add-concrete-composition": "Создать бетонный состав",
+    "Add-monitoring-spot": "Добавить точку мониторинга",
+    "Add-sensor": "Add sensor",
+    "Building-type": "Тип здания",
+    "Concrete-compostition": "Бетонная смесь",
+    "Description": "Описание",
+    "Edit-area": "Редактировать захватку",
+    "Edit-building": "Редактировать строение",
+    "Edit-building-object": "Редактировать строительный объект",
+    "Edit-composition": "Редактировать смесь",
+    "Edit-concrete-composition": "Редактировать бетонную смесь",
+    "Edit-monitoring-spot": "Редактировать точку мониторинга",
+    "Edit-project": "Редактировать проект",
+    "Error": "Ошибка",
+    "External": "Внешняя",
+    "Fill-time": "Время заливки",
+    "Internal": "Внутренняя",
+    "Name": "Имя",
+    "Parameter-a": "Параметр а",
+    "Parameter-b": "Параметр б",
+    "Project-name": "Название проекта",
+    "Select-building-type": "-- Выберите тип строения --",
+    "Select-concrete": "Выберите бетонную смесь",
+    "Select-concrete-composition": "-- Выберите тип смеси --",
+    "Select-concrete-type": "-- Выберите тип бетонной смеси --",
+    "Select-sensor-type": "-- Выберите тип датчика --",
+    "Sensor-type": "Тип датчика",
+    "X-axis": "ось X",
+    "Y-axis": "ось Y"
+  },
+  "sensors": {
+    "Select-an-option": "Выберите вариант",
+    "Sensors": "Датчики",
+    "Capture": "Захватка",
+    "Point": "Точка мониторинга",
+    "Serial-number": "Серийный номер",
+    "Type": "Тип",
+    "Actions": "Действия",
+    "Inrernal": "Внутренний",
+    "External": "Внешний",
+    "View-sensor": "просмотр датчика",
+    "Decouple-sensor": "отвязать датчик",
+    "See-history": "просмотр истории",
+    "Next": "Далее",
+    "Previous": "Назад",
+    "No-sensors": "-- Нет доступных датчиков --",
+    "No-sensor-history": "-- Нет данных --"
+  },
+  "histories": {
+    "Export": "Экспорт",
+    "Clear": "Очистить",
+    "Import": "Импорт",
+    "Export-sensor-history": "Экспортировать данные",
+    "Import-sensor-history": "Импортировать данные",
+    "Clear-sensor-history": "Очистить данные",
+    "Temperature": "Температура",
+    "Time": "Время",
+    "Maturity": "Зрелость",
+    "Strength": "Прочность",
+    "Voltage": "Напряжение"
+  }
+}

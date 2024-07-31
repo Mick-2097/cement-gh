@@ -1,0 +1,53 @@
+image: atlassian/default-image:2
+
+definitions:
+  services:
+    docker:
+      memory: 2048
+
+pipelines:
+  default:
+    - step:
+        services:
+          - docker
+        script:
+          - export IMAGE_NAME=$BITBUCKET_REPO_FULL_NAME:dev-$BITBUCKET_COMMIT
+          - docker build -t $IMAGE_NAME .
+  branches:
+    dev:
+      - step:
+          name: 'Docker Build'
+          services:
+            - docker
+          script:
+            - export IMAGE_NAME=$BITBUCKET_REPO_FULL_NAME:$BITBUCKET_BRANCH-$BITBUCKET_COMMIT
+            - docker build -f dev.Dockerfile -t $IMAGE_NAME .
+            - docker login --username $DOCKER_HUB_USERNAME --password $DOCKER_HUB_PASSWORD
+            - docker push $IMAGE_NAME
+      - step:
+          name: 'Deploy to Kubernetes'
+          image: atlassian/pipelines-kubectl
+          script:
+            - echo $KUBECONFIGDEV | base64 -d > kubeconfig.yml
+            - export KUBE_NAMESPACE=${BITBUCKET_PROJECT_KEY,,}
+            - export IMAGE_NAME=$BITBUCKET_REPO_FULL_NAME:$BITBUCKET_BRANCH-$BITBUCKET_COMMIT
+            - kubectl --kubeconfig=kubeconfig.yml --namespace=$KUBE_NAMESPACE set image deployment/frontend-new frontend-new=$IMAGE_NAME
+    master:
+      - step:
+          name: 'Docker Build'
+          services:
+            - docker
+          script:
+            - export IMAGE_NAME=$BITBUCKET_REPO_FULL_NAME:$BITBUCKET_BRANCH-$BITBUCKET_COMMIT
+            - docker build -f prod.Dockerfile -t $IMAGE_NAME .
+            - docker login --username $DOCKER_HUB_USERNAME --password $DOCKER_HUB_PASSWORD
+            - docker push $IMAGE_NAME
+      - step:
+          # trigger: manual
+          name: 'Deploy to Kubernetes'
+          image: atlassian/pipelines-kubectl
+          script:
+            - echo $KUBECONFIGPROD | base64 -d > kubeconfig.yml
+            - export KUBE_NAMESPACE=${BITBUCKET_PROJECT_KEY,,}
+            - export IMAGE_NAME=$BITBUCKET_REPO_FULL_NAME:$BITBUCKET_BRANCH-$BITBUCKET_COMMIT
+            - kubectl --kubeconfig=kubeconfig.yml --namespace=$KUBE_NAMESPACE set image deployment/frontend-new frontend-new=$IMAGE_NAME
